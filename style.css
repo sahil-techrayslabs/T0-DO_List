@@ -1,0 +1,141 @@
+
+body {
+font-family: Arial, sans-serif;
+max-width: 600px;
+margin: 20px auto;
+padding: 0 15px;
+color: #333;
+}
+
+  h1 {
+    text-align: center;
+  }
+
+  input, button, select {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  #todo-input {
+    width: calc(100% - 120px);
+  }
+
+  #add-todo {
+    width: 100px;
+  }
+
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fc032c;
+  }
+
+  .todo-item.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+    background-color: #d4f7d4;
+  }
+
+  .todo-item span {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .todo-item small {
+    display: block;
+    color: #666;
+    font-size: 12px;
+  }
+
+  .todo-item div button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .todo-item div button.complete-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+
+  .todo-item div button.edit-btn {
+    background-color: #2196f3;
+    color: white;
+  }
+
+  .todo-item div button.delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .filters button {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .filters button.active {
+    background-color: #2196f3;
+    color: white;
+  }
+
+  #todo-category {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .add-todo{
+    width: 85%;
+    height: 45px;
+    margin: 10px;
+    background-color: #03fcd3;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  .add-todo :hover{
+    scale: 1.1;
+    color: #03fcd3;
+    border: 2px solid #03fcd3;
+    background-color: transparent;
+    font-weight: 700;
+    box-shadow: 0 0 40px #03fcd3;
+  }
+  /* footer{
+    background: #03fcd3;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+footer .text span{
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+}
+footer .text span a{
+    font-weight: 500;
+    color: black;
+}
+footer .text span a:hover{
+    text-decoration: underline;
+} */ 

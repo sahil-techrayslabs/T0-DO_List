@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Todo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Enhanced Todo List</h1>
+  <input type="text" id="todo-input" placeholder="Add a new task">
+  <input type="date" id="todo-date">
+  <select id="todo-category">
+    <option value="">Select Category</option>
+    <option value="Work">Work</option>
+    <option value="Personal">Personal</option>
+    <option value="Shopping">Shopping</option>
+    <option value="Other">Other</option>
+  </select>
+  <button id="add-todo">Add</button>
+  <div class="filters">
+    <button id="filter-all" class="active">All</button>
+    <button id="filter-active">Active</button>
+    <button id="filter-completed">Completed</button>
+  </div>
+  <ul id="todo-list"></ul>
+  <script src="script.js"></script>
+  <!-- <footer>
+    <div class="text">
+        <span> Created By 
+            <a href="https://www.instagram.com/">Sahil Kriplani</a> | 
+            &#169; 2024 ALL RIGHTS RESERVED.
+        </span>
+    </div>
+  </footer> -->
+</body>
+</html>
